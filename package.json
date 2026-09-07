@@ -1,0 +1,29 @@
+{
+  "name": "x402-gate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Makes the pool an x402 resource server: a swapper that presents a signed x402 payment gets a cheaper fee on that swap, and the payment settles atomically with the trade.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/x402-gate.git"
+  },
+  "homepage": "https://x402-gate.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "agent-native",
+    "x402",
+    "dynamic-fee",
+    "metering"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
