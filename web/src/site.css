@@ -129,3 +129,10 @@ tr:last-child td { border-bottom: 0; }
 .modal__body { padding: 1.15rem; }
 .modal__lede { color: var(--text-dim); font-size: .9rem; margin-top: 0; }
 .modal__actions { display: flex; gap: .6rem; justify-content: flex-end; padding: 1rem 1.15rem; border-top: 1px solid var(--line); }
+
+.headline { display: grid; gap: .2rem; margin: 0 0 1.25rem; }
+.headline__value { font-size: clamp(2.4rem, 7vw, 3.6rem); font-weight: 660; letter-spacing: -.03em; line-height: 1; font-variant-numeric: tabular-nums; color: var(--forge); }
+.headline__label { color: var(--text-dim); font-size: .92rem; }
+.chart { margin: 0 0 1.25rem; }
+.chart__svg svg { width: 100%; height: auto; display: block; }
+.chart__caption { color: var(--text-faint); font-size: .8rem; margin-top: .4rem; }
