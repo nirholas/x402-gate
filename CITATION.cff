@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "x402-gate"
+abstract: "Makes the pool an x402 resource server: a swapper that presents a signed x402 payment gets a cheaper fee on that swap, and the payment settles atomically with the trade."
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/x402-gate"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"
